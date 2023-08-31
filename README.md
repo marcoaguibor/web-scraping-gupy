@@ -52,4 +52,4 @@ Data do *scraping*: 30 de agosto de 2023 | Pesquisa: "estágio"
 </p>
 
 ## Informações adicionais
-O webscraping é uma técnica de extração de dados que apresenta benefícios e limitações. Para a análise proposta, o tema "estágio" foi escolhido por retornar um número suficiente de vagas, possibilitando extrair informações a partir dos dados. No entanto, para expandir ainda mais a coleta, é uma boa ideia utilizar a [API do Gupy](https://developers.gupy.io/). Uma API pode fornecer dados já estruturados, como JSON ou XLM ao invés do HTML, objeto de coleta e extração do scraping.
+O webscraping é uma técnica de extração de dados que apresenta benefícios e limitações. Para a análise proposta, o termo "estágio" foi escolhido por retornar um número suficiente de vagas, possibilitando extrair informações a partir dos dados. No entanto, para expandir ainda mais a coleta, é uma boa ideia utilizar a [API do Gupy](https://developers.gupy.io/). Uma API pode fornecer dados já estruturados, como JSON ou XLM ao invés do HTML, objeto de coleta e extração do scraping.
