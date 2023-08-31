@@ -4,9 +4,10 @@ Esse é um projeto de extração e análise de dados de vagas de emprego na plat
 Tecnologias utilizadas: `Python, BeautifulSoup, selenium, pandas, matplotlib, numpy, time, requests`.
 
 Como o objetivo é extrair o máximo de dados de vagas possível, tentei encontrar as palavras chaves que mais obtessem resultados. 
-O termo `estágio` obteve um número considerável de respostas, com mais de 2500 vagas.
+O termo `estágio` obteve um número considerável de respostas, com mais de 2500 vagas, e extraí 11 características de cada vaga.
 
 ## Metodologia
+### Código:  **[/main/main.py](https://github.com/marcoaguibor/web-scraping-gupy/blob/main/main/main.py)**
 Esse código consite em utilizar `selenium` para abrir a plataforma Gupy em um driver Chrome, pesquisar "estágio", *scrollar* até a última vaga 
 disponível, salvar o conteúdo do *html* com `BeautifulSoup` e exportar dados tabulares com `pandas`. 
 
@@ -51,4 +52,4 @@ Data do *scraping*: 30 de agosto de 2023 | Pesquisa: "estágio"
 </p>
 
 ## Informações adicionais
-O webscraping é uma técnica de extração de dados que apresenta benefícios e limitações. Para a análise proposta, o tema "estágio" foi escolhido por retornar um número suficiente de vagas, possibilidando extrair informações a partir dos dados. No entanto, para expandir ainda mais a coleta, é uma boa ideia utilizar a [API do Gupy](https://developers.gupy.io/). Uma API pode fornecer dados já estruturados, como JSON ou XLM ao invés do HTML, objeto de coleta e extração do scraping.
+O webscraping é uma técnica de extração de dados que apresenta benefícios e limitações. Para a análise proposta, o tema "estágio" foi escolhido por retornar um número suficiente de vagas, possibilitando extrair informações a partir dos dados. No entanto, para expandir ainda mais a coleta, é uma boa ideia utilizar a [API do Gupy](https://developers.gupy.io/). Uma API pode fornecer dados já estruturados, como JSON ou XLM ao invés do HTML, objeto de coleta e extração do scraping.
